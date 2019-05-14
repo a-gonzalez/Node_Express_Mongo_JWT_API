@@ -1,0 +1,6 @@
+{
+	"connection": "mongodb://localhost/user-management",
+	"secret": "B6A41622-D6E1-4EEB-AB1C-AB93A70CD97A",
+	"duration": "1h",
+	"port": 3150
+}
