@@ -15,7 +15,7 @@ module.exports = {
 };
 
 async function authenticate({ username, password })
-{
+{// https://www.npmjs.com/package/jsonwebtoken#errors--codes
 	const user = await User.findOne({ username });
 
 	if (user && crypto.compareSync(password, user.hash))
